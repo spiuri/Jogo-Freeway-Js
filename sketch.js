@@ -20,6 +20,9 @@ function setup() {
     movimentaCarro();
     movimentaAtor();
     voltaPocisaoInicialdoCarro();
+    verificaColisao();
+    incluirPontos();
+    marcaPonto();
   }
 
  
